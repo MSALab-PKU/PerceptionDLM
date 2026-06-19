@@ -1,0 +1,935 @@
+A-OKVQA-General:
+- data_file: datasets/Honey-Data-15M/General/A-OKVQA
+  data_type: parquet
+  num_samples: 27515
+  row_size: 16
+AI2D-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/AI2D
+  data_type: parquet
+  num_samples: 28597
+  row_size: 16
+AI2D_GPT4V-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/AI2D_GPT4V
+  data_type: parquet
+  num_samples: 5507
+  row_size: 16
+AI2D_InternVL-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/AI2D_InternVL
+  data_type: parquet
+  num_samples: 10633
+  row_size: 16
+ALFWorld-General:
+- data_file: datasets/Honey-Data-15M/General/ALFWorld
+  data_type: parquet
+  num_samples: 31893
+  row_size: 16
+ALLaVA-General:
+- data_file: datasets/Honey-Data-15M/General/ALLaVA
+  data_type: parquet
+  num_samples: 721054
+  row_size: 16
+ART500K-General:
+- data_file: datasets/Honey-Data-15M/General/ART500K
+  data_type: parquet
+  num_samples: 11045
+  row_size: 16
+ArXiv_OCR-OCR:
+- data_file: datasets/Honey-Data-15M/OCR/ArXiv_OCR
+  data_type: parquet
+  num_samples: 159300
+  row_size: 16
+ArxivQA-Caption:
+- data_file: datasets/Honey-Data-15M/Chart/ArxivQA
+  data_type: parquet
+  num_samples: 287009
+  row_size: 16
+ArxivQA-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/ArxivQA
+  data_type: parquet
+  num_samples: 287009
+  row_size: 16
+Birds-to-Words-General:
+- data_file: datasets/Honey-Data-15M/General/Birds-to-Words
+  data_type: parquet
+  num_samples: 11169
+  row_size: 16
+CLEVR-Change-GroundingCouting:
+- data_file: datasets/Honey-Data-15M/GroundingCounting/CLEVR-Change
+  data_type: parquet
+  num_samples: 2988
+  row_size: 16
+CLEVR-GroundingCouting:
+- data_file: datasets/Honey-Data-15M/GroundingCounting/CLEVR
+  data_type: parquet
+  num_samples: 504723
+  row_size: 16
+CLEVR_Math-GroundingCouting:
+- data_file: datasets/Honey-Data-15M/GroundingCounting/CLEVR_Math
+  data_type: parquet
+  num_samples: 7179
+  row_size: 16
+CMM-Math-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/CMM-Math
+  data_type: parquet
+  num_samples: 1485
+  row_size: 16
+COCO-General:
+- data_file: datasets/Honey-Data-15M/General/COCO
+  data_type: parquet
+  num_samples: 16332
+  row_size: 16
+COYO-Recaption-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/COYO-Recaption
+  data_type: parquet
+  num_samples: 1091735
+  row_size: 16
+CTW-OCR:
+- data_file: datasets/Honey-Data-15M/OCR/CTW
+  data_type: parquet
+  num_samples: 13577
+  row_size: 16
+Cambrian-General:
+- data_file: datasets/Honey-Data-15M/General/Cambrian
+  data_type: parquet
+  num_samples: 5950
+  row_size: 16
+Cambrian_Filter-General:
+- data_file: datasets/Honey-Data-15M/General/Cambrian_Filter
+  data_type: parquet
+  num_samples: 93674
+  row_size: 16
+Cauldron_mulberry-General:
+- data_file: datasets/Honey-Data-15M/General/Cauldron_mulberry
+  data_type: parquet
+  num_samples: 28068
+  row_size: 16
+Chart2Text-Caption:
+- data_file: datasets/Honey-Data-15M/Chart/Chart2Text
+  data_type: parquet
+  num_samples: 34525
+  row_size: 16
+Chart2Text-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/Chart2Text
+  data_type: parquet
+  num_samples: 34525
+  row_size: 16
+ChartQA-Caption:
+- data_file: datasets/Honey-Data-15M/Chart/ChartQA
+  data_type: parquet
+  num_samples: 34680
+  row_size: 16
+ChartQA-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/ChartQA
+  data_type: parquet
+  num_samples: 34680
+  row_size: 16
+Chrome-Writing-OCR:
+- data_file: datasets/Honey-Data-15M/OCR/Chrome-Writing
+  data_type: parquet
+  num_samples: 9247
+  row_size: 16
+Co-Instruct-General:
+- data_file: datasets/Honey-Data-15M/General/Co-Instruct
+  data_type: parquet
+  num_samples: 30507
+  row_size: 16
+CoSyn_Chart-Caption:
+- data_file: datasets/Honey-Data-15M/Chart/CoSyn_Chart
+  data_type: parquet
+  num_samples: 300000
+  row_size: 16
+CoSyn_Chart-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/CoSyn_Chart
+  data_type: parquet
+  num_samples: 308225
+  row_size: 16
+CoSyn_Chemical-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/CoSyn_Chemical
+  data_type: parquet
+  num_samples: 18222
+  row_size: 16
+CoSyn_Circuit-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/CoSyn_Circuit
+  data_type: parquet
+  num_samples: 16962
+  row_size: 16
+CoSyn_Diagram-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/CoSyn_Diagram
+  data_type: parquet
+  num_samples: 77143
+  row_size: 16
+CoSyn_Graphic-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/CoSyn_Graphic
+  data_type: parquet
+  num_samples: 19378
+  row_size: 16
+CoSyn_Math-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/CoSyn_Math
+  data_type: parquet
+  num_samples: 37427
+  row_size: 16
+CoSyn_Music-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/CoSyn_Music
+  data_type: parquet
+  num_samples: 21158
+  row_size: 16
+CoSyn_Table-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/CoSyn_Table
+  data_type: parquet
+  num_samples: 86475
+  row_size: 16
+CoSyn_document-Document:
+- data_file: datasets/Honey-Data-15M/Document/CoSyn_document
+  data_type: parquet
+  num_samples: 101510
+  row_size: 16
+CoSyn_nutrition-Document:
+- data_file: datasets/Honey-Data-15M/Document/CoSyn_nutrition
+  data_type: parquet
+  num_samples: 12954
+  row_size: 16
+ContrastiveCaption-General:
+- data_file: datasets/Honey-Data-15M/General/ContrastiveCaption
+  data_type: parquet
+  num_samples: 17211
+  row_size: 16
+DVQA-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/DVQA
+  data_type: parquet
+  num_samples: 474688
+  row_size: 16
+DocReason-Document:
+- data_file: datasets/Honey-Data-15M/Document/DocReason
+  data_type: parquet
+  num_samples: 3983
+  row_size: 16
+DocVQA-Document:
+- data_file: datasets/Honey-Data-15M/Document/DocVQA
+  data_type: parquet
+  num_samples: 25911
+  row_size: 16
+Docmatix-Document:
+- data_file: datasets/Honey-Data-15M/Document/Docmatix
+  data_type: parquet
+  num_samples: 19077
+  row_size: 16
+DreamSim-General:
+- data_file: datasets/Honey-Data-15M/General/DreamSim
+  data_type: parquet
+  num_samples: 11035
+  row_size: 16
+EATEN-Document:
+- data_file: datasets/Honey-Data-15M/Document/EATEN
+  data_type: parquet
+  num_samples: 30000
+  row_size: 16
+EST-VQA-General:
+- data_file: datasets/Honey-Data-15M/General/EST-VQA
+  data_type: parquet
+  num_samples: 13546
+  row_size: 16
+FigureQA-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/FigureQA
+  data_type: parquet
+  num_samples: 206844
+  row_size: 16
+FinTabNet-Document:
+- data_file: datasets/Honey-Data-15M/Document/FinTabNet
+  data_type: parquet
+  num_samples: 50105
+  row_size: 16
+FlintstonesSV-General:
+- data_file: datasets/Honey-Data-15M/General/FlintstonesSV
+  data_type: parquet
+  num_samples: 17035
+  row_size: 16
+GQA-General:
+- data_file: datasets/Honey-Data-15M/General/GQA
+  data_type: parquet
+  num_samples: 46172
+  row_size: 16
+Geo170K-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/Geo170K
+  data_type: parquet
+  num_samples: 106594
+  row_size: 16
+GeoQA+-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/GeoQA+
+  data_type: parquet
+  num_samples: 60261
+  row_size: 16
+GeomVerse-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/GeomVerse
+  data_type: parquet
+  num_samples: 6531
+  row_size: 16
+Geometry3K-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/Geometry3K
+  data_type: parquet
+  num_samples: 11355
+  row_size: 16
+HME-OCR:
+- data_file: datasets/Honey-Data-15M/OCR/HME
+  data_type: parquet
+  num_samples: 93641
+  row_size: 16
+HQ-Edit-General:
+- data_file: datasets/Honey-Data-15M/General/HQ-Edit
+  data_type: parquet
+  num_samples: 36427
+  row_size: 16
+Hateful_Memes-General:
+- data_file: datasets/Honey-Data-15M/General/Hateful_Memes
+  data_type: parquet
+  num_samples: 7325
+  row_size: 16
+HiTab-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/HiTab
+  data_type: parquet
+  num_samples: 3609
+  row_size: 16
+IAM-OCR:
+- data_file: datasets/Honey-Data-15M/OCR/IAM
+  data_type: parquet
+  num_samples: 5659
+  row_size: 16
+ICDAR-LSVT-zh-OCR:
+- data_file: datasets/Honey-Data-15M/OCR/ICDAR-LSVT-zh
+  data_type: parquet
+  num_samples: 28213
+  row_size: 16
+ICDAR2017-OCR:
+- data_file: datasets/Honey-Data-15M/OCR/ICDAR2017
+  data_type: parquet
+  num_samples: 9906
+  row_size: 16
+ICDAR2019-OCR:
+- data_file: datasets/Honey-Data-15M/OCR/ICDAR2019
+  data_type: parquet
+  num_samples: 3396
+  row_size: 16
+IDK-General:
+- data_file: datasets/Honey-Data-15M/General/IDK
+  data_type: parquet
+  num_samples: 16611
+  row_size: 16
+IIIT_5K-OCR:
+- data_file: datasets/Honey-Data-15M/OCR/IIIT_5K
+  data_type: parquet
+  num_samples: 1976
+  row_size: 16
+IconQA-General:
+- data_file: datasets/Honey-Data-15M/General/IconQA
+  data_type: parquet
+  num_samples: 26548
+  row_size: 16
+IconQA-GroundingCouting:
+- data_file: datasets/Honey-Data-15M/GroundingCounting/IconQA
+  data_type: parquet
+  num_samples: 35911
+  row_size: 16
+InfoVQA-Document:
+- data_file: datasets/Honey-Data-15M/Document/InfoVQA
+  data_type: parquet
+  num_samples: 10125
+  row_size: 16
+Infographic-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/Infographic
+  data_type: parquet
+  num_samples: 2763
+  row_size: 16
+InfographicVQA-Document:
+- data_file: datasets/Honey-Data-15M/Document/InfographicVQA
+  data_type: parquet
+  num_samples: 5521
+  row_size: 16
+InterGPS-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/InterGPS
+  data_type: parquet
+  num_samples: 1326
+  row_size: 16
+InternVL-SA-1B-Caption-General:
+- data_file: datasets/Honey-Data-15M/General/InternVL-SA-1B-Caption
+  data_type: parquet
+  num_samples: 16922
+  row_size: 16
+K12_Printing-OCR:
+- data_file: datasets/Honey-Data-15M/OCR/K12_Printing
+  data_type: parquet
+  num_samples: 211104
+  row_size: 16
+KVQA-General:
+- data_file: datasets/Honey-Data-15M/General/KVQA
+  data_type: parquet
+  num_samples: 17690
+  row_size: 16
+KonIQ-10k-General:
+- data_file: datasets/Honey-Data-15M/General/KonIQ-10k
+  data_type: parquet
+  num_samples: 9361
+  row_size: 16
+LLaVA-Instruct-300k-General:
+- data_file: datasets/Honey-Data-15M/General/LLaVA-Instruct-300k
+  data_type: parquet
+  num_samples: 470800
+  row_size: 16
+LLaVA-NeXT-Data-General:
+- data_file: datasets/Honey-Data-15M/General/LLaVA-NeXT-Data
+  data_type: parquet
+  num_samples: 711541
+  row_size: 16
+LLaVAR_GPT4-Document:
+- data_file: datasets/Honey-Data-15M/Document/LLaVAR_GPT4
+  data_type: parquet
+  num_samples: 23267
+  row_size: 16
+LRV_Chart-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/LRV_Chart
+  data_type: parquet
+  num_samples: 3568
+  row_size: 16
+LRV_Normal-General:
+- data_file: datasets/Honey-Data-15M/General/LRV_Normal
+  data_type: parquet
+  num_samples: 39491
+  row_size: 16
+LVIS-InstructV4-General:
+- data_file: datasets/Honey-Data-15M/General/LVIS-InstructV4
+  data_type: parquet
+  num_samples: 145372
+  row_size: 16
+MAVIS-Geo-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/MAVIS-Geo
+  data_type: parquet
+  num_samples: 43933
+  row_size: 16
+MAVIS-Metagen-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/MAVIS-Metagen
+  data_type: parquet
+  num_samples: 62497
+  row_size: 16
+MAVIS_Function-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/MAVIS_Function
+  data_type: parquet
+  num_samples: 25321
+  row_size: 16
+MMC_Instruction-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/MMC_Instruction
+  data_type: parquet
+  num_samples: 27094
+  row_size: 16
+MMChat-Twitter-Post-General:
+- data_file: datasets/Honey-Data-15M/General/MMChat-Twitter-Post
+  data_type: parquet
+  num_samples: 4317
+  row_size: 16
+MMChem-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/MMChem
+  data_type: parquet
+  num_samples: 10000
+  row_size: 16
+MMTab-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/MMTab
+  data_type: parquet
+  num_samples: 165603
+  row_size: 16
+MTWI_zh-OCR:
+- data_file: datasets/Honey-Data-15M/OCR/MTWI_zh
+  data_type: parquet
+  num_samples: 8330
+  row_size: 16
+MagicBrush-General:
+- data_file: datasets/Honey-Data-15M/General/MagicBrush
+  data_type: parquet
+  num_samples: 9793
+  row_size: 16
+MapQA-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/MapQA
+  data_type: parquet
+  num_samples: 142630
+  row_size: 16
+MathV360K_TQA-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/MathV360K_TQA
+  data_type: parquet
+  num_samples: 8437
+  row_size: 16
+MathV360K_VQA-AS-GroundingCouting:
+- data_file: datasets/Honey-Data-15M/GroundingCounting/MathV360K_VQA-AS
+  data_type: parquet
+  num_samples: 4054
+  row_size: 16
+MetaMathQA-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/MetaMathQA
+  data_type: parquet
+  num_samples: 110000
+  row_size: 16
+MovieNet-GroundingCouting:
+- data_file: datasets/Honey-Data-15M/GroundingCounting/MovieNet
+  data_type: parquet
+  num_samples: 7379
+  row_size: 16
+MultiHiertt-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/MultiHiertt
+  data_type: parquet
+  num_samples: 4588
+  row_size: 16
+NLVR2-General:
+- data_file: datasets/Honey-Data-15M/General/NLVR2
+  data_type: parquet
+  num_samples: 54097
+  row_size: 16
+NewYorker_Caption-General:
+- data_file: datasets/Honey-Data-15M/General/NewYorker_Caption
+  data_type: parquet
+  num_samples: 2554
+  row_size: 16
+NextQA-General:
+- data_file: datasets/Honey-Data-15M/General/NextQA
+  data_type: parquet
+  num_samples: 3092
+  row_size: 16
+OCR-VQA-Document:
+- data_file: datasets/Honey-Data-15M/Document/OCR-VQA
+  data_type: parquet
+  num_samples: 108933
+  row_size: 16
+Objects365-General:
+- data_file: datasets/Honey-Data-15M/General/Objects365
+  data_type: parquet
+  num_samples: 5192
+  row_size: 16
+Orand-Car-A-OCR:
+- data_file: datasets/Honey-Data-15M/OCR/Orand-Car-A
+  data_type: parquet
+  num_samples: 2000
+  row_size: 16
+PMC-VQA-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/PMC-VQA
+  data_type: parquet
+  num_samples: 25959
+  row_size: 16
+POIE-Document:
+- data_file: datasets/Honey-Data-15M/Document/POIE
+  data_type: parquet
+  num_samples: 2250
+  row_size: 16
+PathVQA-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/PathVQA
+  data_type: parquet
+  num_samples: 21776
+  row_size: 16
+PixMo-AskModelAnything-General:
+- data_file: datasets/Honey-Data-15M/General/PixMo-AskModelAnything
+  data_type: parquet
+  num_samples: 96280
+  row_size: 16
+PixMo-Cap-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/PixMo-Cap
+  data_type: parquet
+  num_samples: 706911
+  row_size: 16
+PixMo-CapQA-General:
+- data_file: datasets/Honey-Data-15M/General/PixMo-CapQA
+  data_type: parquet
+  num_samples: 237263
+  row_size: 16
+PixMo-Points-Explanations-General:
+- data_file: datasets/Honey-Data-15M/General/PixMo-Points-Explanations
+  data_type: parquet
+  num_samples: 44917
+  row_size: 16
+PlotQA-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/PlotQA
+  data_type: parquet
+  num_samples: 138932
+  row_size: 16
+RAVEN-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/RAVEN
+  data_type: parquet
+  num_samples: 23123
+  row_size: 16
+ReCTs-OCR:
+- data_file: datasets/Honey-Data-15M/OCR/ReCTs
+  data_type: parquet
+  num_samples: 17000
+  row_size: 16
+Rendered_Text-OCR:
+- data_file: datasets/Honey-Data-15M/OCR/Rendered_Text
+  data_type: parquet
+  num_samples: 9996
+  row_size: 16
+RobuT_SQA-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/RobuT_SQA
+  data_type: parquet
+  num_samples: 26557
+  row_size: 16
+RobuT_WTQ-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/RobuT_WTQ
+  data_type: parquet
+  num_samples: 44181
+  row_size: 16
+RobuT_WikiSQL-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/RobuT_WikiSQL
+  data_type: parquet
+  num_samples: 110868
+  row_size: 16
+ST-VQA-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/ST-VQA
+  data_type: parquet
+  num_samples: 13581
+  row_size: 16
+SVIT-core-150K-General:
+- data_file: datasets/Honey-Data-15M/General/SVIT-core-150K
+  data_type: parquet
+  num_samples: 269361
+  row_size: 16
+SVIT-mix-665K-General:
+- data_file: datasets/Honey-Data-15M/General/SVIT-mix-665K
+  data_type: parquet
+  num_samples: 1019100
+  row_size: 16
+ScanQA-General:
+- data_file: datasets/Honey-Data-15M/General/ScanQA
+  data_type: parquet
+  num_samples: 10188
+  row_size: 16
+SciTSR-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/SciTSR
+  data_type: parquet
+  num_samples: 8981
+  row_size: 16
+ScienceQA-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/ScienceQA
+  data_type: parquet
+  num_samples: 12633
+  row_size: 16
+ScreenQA-Document:
+- data_file: datasets/Honey-Data-15M/Document/ScreenQA
+  data_type: parquet
+  num_samples: 64870
+  row_size: 16
+ShareGPT4V_Knowledge-General:
+- data_file: datasets/Honey-Data-15M/General/ShareGPT4V_Knowledge
+  data_type: parquet
+  num_samples: 1983
+  row_size: 16
+ShareGPT4V_SAM-General:
+- data_file: datasets/Honey-Data-15M/General/ShareGPT4V_SAM
+  data_type: parquet
+  num_samples: 122461
+  row_size: 16
+ShareGPT4o-General:
+- data_file: datasets/Honey-Data-15M/General/ShareGPT4o
+  data_type: parquet
+  num_samples: 73884
+  row_size: 16
+Sherlock-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/Sherlock
+  data_type: parquet
+  num_samples: 16936
+  row_size: 16
+SimChart9K-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/SimChart9K
+  data_type: parquet
+  num_samples: 4453
+  row_size: 16
+Sroie-OCR:
+- data_file: datasets/Honey-Data-15M/OCR/Sroie
+  data_type: parquet
+  num_samples: 31832
+  row_size: 16
+Super-CLEVR-GroundingCouting:
+- data_file: datasets/Honey-Data-15M/GroundingCounting/Super-CLEVR
+  data_type: parquet
+  num_samples: 6811
+  row_size: 16
+TQA-General:
+- data_file: datasets/Honey-Data-15M/General/TQA
+  data_type: parquet
+  num_samples: 2071
+  row_size: 16
+TQA-GroundingCouting:
+- data_file: datasets/Honey-Data-15M/GroundingCounting/TQA
+  data_type: parquet
+  num_samples: 26978
+  row_size: 16
+TabMWP-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/TabMWP
+  data_type: parquet
+  num_samples: 46321
+  row_size: 16
+TallyQA-GroundingCouting:
+- data_file: datasets/Honey-Data-15M/GroundingCounting/TallyQA
+  data_type: parquet
+  num_samples: 91587
+  row_size: 16
+TextOCR-OCR:
+- data_file: datasets/Honey-Data-15M/OCR/TextOCR
+  data_type: parquet
+  num_samples: 47656
+  row_size: 16
+TextVQA-Document:
+- data_file: datasets/Honey-Data-15M/Document/TextVQA
+  data_type: parquet
+  num_samples: 39795
+  row_size: 16
+TinyChart-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/TinyChart
+  data_type: parquet
+  num_samples: 1014067
+  row_size: 16
+UReader_KG-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/UReader_KG
+  data_type: parquet
+  num_samples: 39038
+  row_size: 16
+UReader_QA-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/UReader_QA
+  data_type: parquet
+  num_samples: 121365
+  row_size: 16
+UniChart-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/UniChart
+  data_type: parquet
+  num_samples: 330018
+  row_size: 16
+UniGeo-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/UniGeo
+  data_type: parquet
+  num_samples: 8431
+  row_size: 16
+UreaderOCR-Document:
+- data_file: datasets/Honey-Data-15M/Document/UreaderOCR
+  data_type: parquet
+  num_samples: 5524
+  row_size: 16
+Ureader_Chart-Document:
+- data_file: datasets/Honey-Data-15M/Document/Ureader_Chart
+  data_type: parquet
+  num_samples: 371023
+  row_size: 16
+VCR-Wiki-OCR:
+- data_file: datasets/Honey-Data-15M/OCR/VCR-Wiki
+  data_type: parquet
+  num_samples: 77935
+  row_size: 16
+VIST-General:
+- data_file: datasets/Honey-Data-15M/General/VIST
+  data_type: parquet
+  num_samples: 21144
+  row_size: 16
+VQA-RAD-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/VQA-RAD
+  data_type: parquet
+  num_samples: 1561
+  row_size: 16
+VSR-General:
+- data_file: datasets/Honey-Data-15M/General/VSR
+  data_type: parquet
+  num_samples: 2752
+  row_size: 16
+ViQuAE-General:
+- data_file: datasets/Honey-Data-15M/General/ViQuAE
+  data_type: parquet
+  num_samples: 2304
+  row_size: 16
+VisText-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/VisText
+  data_type: parquet
+  num_samples: 15616
+  row_size: 16
+Vision_FLAN-General:
+- data_file: datasets/Honey-Data-15M/General/Vision_FLAN
+  data_type: parquet
+  num_samples: 458760
+  row_size: 16
+Visual7W-General:
+- data_file: datasets/Honey-Data-15M/General/Visual7W
+  data_type: parquet
+  num_samples: 30709
+  row_size: 16
+VisualGenome-GroundingCouting:
+- data_file: datasets/Honey-Data-15M/GroundingCounting/VisualGenome
+  data_type: parquet
+  num_samples: 77406
+  row_size: 16
+VisualMRC-Document:
+- data_file: datasets/Honey-Data-15M/Document/VisualMRC
+  data_type: parquet
+  num_samples: 3292
+  row_size: 16
+VisualWebInstruct-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/VisualWebInstruct
+  data_type: parquet
+  num_samples: 143407
+  row_size: 16
+VisualWebInstruct_filtered-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/VisualWebInstruct_filtered
+  data_type: parquet
+  num_samples: 190450
+  row_size: 16
+VizWiz-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/VizWiz
+  data_type: parquet
+  num_samples: 6054
+  row_size: 16
+WIT-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT
+  data_type: parquet
+  num_samples: 419898
+  row_size: 16
+WIT_Part00-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT_Part00
+  data_type: parquet
+  num_samples: 21000
+  row_size: 16
+WIT_Part01-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT_Part01
+  data_type: parquet
+  num_samples: 21000
+  row_size: 16
+WIT_Part02-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT_Part02
+  data_type: parquet
+  num_samples: 21000
+  row_size: 16
+WIT_Part03-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT_Part03
+  data_type: parquet
+  num_samples: 21000
+  row_size: 16
+WIT_Part04-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT_Part04
+  data_type: parquet
+  num_samples: 21000
+  row_size: 16
+WIT_Part05-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT_Part05
+  data_type: parquet
+  num_samples: 21000
+  row_size: 16
+WIT_Part06-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT_Part06
+  data_type: parquet
+  num_samples: 21000
+  row_size: 16
+WIT_Part07-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT_Part07
+  data_type: parquet
+  num_samples: 21000
+  row_size: 16
+WIT_Part08-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT_Part08
+  data_type: parquet
+  num_samples: 21000
+  row_size: 16
+WIT_Part09-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT_Part09
+  data_type: parquet
+  num_samples: 21000
+  row_size: 16
+WIT_Part10-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT_Part10
+  data_type: parquet
+  num_samples: 21000
+  row_size: 16
+WIT_Part11-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT_Part11
+  data_type: parquet
+  num_samples: 21000
+  row_size: 16
+WIT_Part12-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT_Part12
+  data_type: parquet
+  num_samples: 21000
+  row_size: 16
+WIT_Part13-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT_Part13
+  data_type: parquet
+  num_samples: 21000
+  row_size: 16
+WIT_Part14-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT_Part14
+  data_type: parquet
+  num_samples: 21000
+  row_size: 16
+WIT_Part15-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT_Part15
+  data_type: parquet
+  num_samples: 21000
+  row_size: 16
+WIT_Part16-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT_Part16
+  data_type: parquet
+  num_samples: 21000
+  row_size: 16
+WIT_Part17-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT_Part17
+  data_type: parquet
+  num_samples: 21000
+  row_size: 16
+WIT_Part18-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT_Part18
+  data_type: parquet
+  num_samples: 21000
+  row_size: 16
+WIT_Part19-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/WIT_Part19
+  data_type: parquet
+  num_samples: 20898
+  row_size: 16
+WebQA-General:
+- data_file: datasets/Honey-Data-15M/General/WebQA
+  data_type: parquet
+  num_samples: 6588
+  row_size: 16
+WebSight-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/WebSight
+  data_type: parquet
+  num_samples: 7634
+  row_size: 16
+WildVision-General:
+- data_file: datasets/Honey-Data-15M/General/WildVision
+  data_type: parquet
+  num_samples: 1896
+  row_size: 16
+idefics375k-General:
+- data_file: datasets/Honey-Data-15M/General/idefics375k
+  data_type: parquet
+  num_samples: 406052
+  row_size: 16
+nuScenes-General:
+- data_file: datasets/Honey-Data-15M/General/nuScenes
+  data_type: parquet
+  num_samples: 6510
+  row_size: 16
+other-Caption:
+- data_file: datasets/Honey-Data-15M/Caption/other
+  data_type: parquet
+  num_samples: 1068
+  row_size: 16
+other-Chart:
+- data_file: datasets/Honey-Data-15M/Chart/other
+  data_type: parquet
+  num_samples: 1982
+  row_size: 16
+other-Document:
+- data_file: datasets/Honey-Data-15M/Document/other
+  data_type: parquet
+  num_samples: 195
+  row_size: 16
+other-General:
+- data_file: datasets/Honey-Data-15M/General/other
+  data_type: parquet
+  num_samples: 3061
+  row_size: 16
+other-GroundingCouting:
+- data_file: datasets/Honey-Data-15M/GroundingCounting/other
+  data_type: parquet
+  num_samples: 1146
+  row_size: 16
+other-STEM:
+- data_file: datasets/Honey-Data-15M/STEM/other
+  data_type: parquet
+  num_samples: 3864
+  row_size: 16

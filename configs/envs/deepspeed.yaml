@@ -1,0 +1,28 @@
+TRAINING_CONFIG:
+  deepspeed:
+    fp16:
+      enabled: false
+      loss_scale: 0
+      loss_scale_window: 1000
+      initial_scale_power: 16
+      hysteresis: 2
+      min_loss_scale: 1
+    bf16:
+      enabled: true
+
+    zero_optimization:
+      stage: 2
+      contiguous_gradients: true
+      overlap_comm: true
+      allgather_bucket_size: 200000000
+      reduce_bucket_size: 200000000
+      round_robin_gradients: true
+      # Uncomment below if checkpoint saving OOMs even with cache clear
+      offload_optimizer:
+        device: cpu
+        pin_memory: true
+
+    gradient_accumulation_steps: "auto"
+    gradient_clipping: "auto"
+    train_micro_batch_size_per_gpu: "auto"
+    train_batch_size: "auto"

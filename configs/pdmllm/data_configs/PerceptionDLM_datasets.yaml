@@ -1,0 +1,7 @@
+gar_caption:
+- data_file: annotations/dam_dataset.json
+  data_type: json
+- data_file: annotations/coconut_dataset.json
+  data_type: json
+- data_file: annotations/sam_dataset.json
+  data_type: json

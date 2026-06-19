@@ -1,0 +1,30 @@
+coyo:
+- data_file: datasets/Bee-Training-Data-Stage2/coyo
+  data_type: parquet
+  num_samples: 5396778
+  row_size: 16
+laion2B:
+- data_file: datasets/Bee-Training-Data-Stage2/laion2B
+  data_type: parquet
+  num_samples: 6901997
+  row_size: 16
+nemotron:
+- data_file: datasets/Bee-Training-Data-Stage2/nemotron
+  data_type: parquet
+  num_samples: 1429494
+  row_size: 16
+synthdog_en_processed_new:
+- data_file: datasets/Bee-Training-Data-Stage2/synthdog_en_processed_new
+  data_type: parquet
+  num_samples: 100000
+  row_size: 16
+synthdog_zh_processed_new:
+- data_file: datasets/Bee-Training-Data-Stage2/synthdog_zh_processed_new
+  data_type: parquet
+  num_samples: 100000
+  row_size: 16
+ureader_tr_processed_new:
+- data_file: datasets/Bee-Training-Data-Stage2/ureader_tr_processed_new
+  data_type: parquet
+  num_samples: 101834
+  row_size: 16

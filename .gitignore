@@ -1,0 +1,60 @@
+# Ignore wandb directory
+wandb/
+
+# Ignore work directories  
+work_dirs/
+workdir/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large wheel files (optional - uncomment if you want to ignore)
+# *.whl
+
+# Custom
+logs/
+outputs/
+
+exp_work_dirs/
+checkpoints/
+output/
+/annotations/
+images/
+cache/
+
+parallel_model_outputs_cache/
+dlc_model_outputs_cache/
+exported_model/
+
+.ttadk/
+specs/doc_export/
+ai-plugin.json
+ai-plugin-lock.json
+.coco/
+.gradio/

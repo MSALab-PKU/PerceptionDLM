@@ -1,0 +1,2 @@
+torchrun --nproc_per_node=2 --master-port=54320 hang.py 
+torchrun --nproc-per-node=2 --master-port=54321 run.py --data MMMU_DEV_VAL  --model DMLLM-Dream-12M --verbose

@@ -1,0 +1,30 @@
+TRAINING_CONFIG:
+  ddp_backend: null
+  num_train_epochs: 1
+  per_device_train_batch_size: 2
+  gradient_accumulation_steps: 1
+  dataloader_num_workers: 16
+  dataloader_prefetch_factor: 128
+  dataloader_drop_last: True
+  dataloader_pin_memory: False
+  bf16: True
+  tf32: True
+
+  learning_rate: 0.00002
+  weight_decay: 0.
+  max_grad_norm: 1.
+  lr_scheduler_type: cosine
+  warmup_ratio: 0.03
+  gradient_checkpointing: True
+  torch_empty_cache_steps: 627
+
+  report_to: none
+  logging_steps: 1
+  save_strategy: steps
+  save_steps: 1000
+  save_safetensors: True
+  save_only_model: False
+  save_total_limit: 20
+
+  # Extension Parameters
+  use_online_length_grouped_dataloader: True

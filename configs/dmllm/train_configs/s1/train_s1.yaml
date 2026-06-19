@@ -1,0 +1,47 @@
+_BASE_:
+  - '../../../envs/default.yaml'
+  - '../../../envs/deepspeed.yaml'
+
+TRAINING_CONFIG:
+  num_train_epochs: 1
+  per_device_train_batch_size: 16
+  gradient_accumulation_steps: 2
+  dataloader_num_workers: 16
+  dataloader_prefetch_factor: 128
+  learning_rate: 0.001
+  output_dir: work_dirs/dmllm/s1
+  save_steps: 1000
+  report_to: wandb
+
+DATA_CONFIG:
+  max_length: 2048
+  # augmentations: [{'name': 'random_resize', 'min_size': 448, 'max_size': 1512}]
+
+PROCESSOR_CONFIG:
+  chat_template: "{% for message in messages %}{% if loop.first and message['role'] != 'system' %}<|start_header_id|>system<|end_header_id|>\nYou are a helpful assistant.<|eot_id|>\n{% endif %}<|start_header_id|>{{ message['role'] }}<|end_header_id|>\n{% if message['role'] == 'assistant' %}{% generation %}{{ message['content'][0]['text'] }}<|eot_id|>{% endgeneration %}{% else %}{% for content in message['content'] %}{% if content['type'] == 'image' or 'image' in content or 'image_url' in content %}<img><IMG_CONTEXT></img>{% elif content['type'] == 'video' or 'video' in content %}<video><VIDEO_CONTEXT></video>{% elif 'text' in content %}{{ content['text'] }}{% endif %}{% endfor %}<|eot_id|>\n{% endif %}{% endfor %}{% if add_generation_prompt %}<|start_header_id|>assistant<|end_header_id|>\n{% endif %}"
+  processor_class: dmllm.processing_dmllm.DMLLMProcessor
+  vision_token_share_pe: false
+  max_sub_img: 1 # no split
+  min_sub_img: 1
+  tokenizer_config:
+    name_or_path: MSALab/LLaDA-8B-Instruct-HF
+  image_processor_config:
+    name_or_path: google/siglip2-so400m-patch16-512
+
+MODEL_CONFIG:
+  pretrained_path: MSALab/LLaDA-8B-Instruct-HF
+  architecture: dmllm.modeling_dmllm.DMLLM
+  torch_dtype: bfloat16
+  vision_output_key: null
+  language_model:
+    name_or_path: MSALab/LLaDA-8B-Instruct-HF
+    architecture: dmllm.modeling_llada.LLaDAModelLM
+    attn_implementation: flash_attention_2
+    freeze: 1
+  vision_model:
+    name_or_path: google/siglip2-so400m-patch16-512
+    attn_implementation: flash_attention_2
+    freeze: 1
+  vision_abstractor:
+    projection_type: mlp2x_gelu
+    freeze: 0

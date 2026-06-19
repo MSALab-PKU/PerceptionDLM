@@ -1,0 +1,5 @@
+data:
+- data_file: datasets/Bee-Training-Data-Stage1/data
+  data_type: parquet
+  num_samples: 994839
+  row_size: 16

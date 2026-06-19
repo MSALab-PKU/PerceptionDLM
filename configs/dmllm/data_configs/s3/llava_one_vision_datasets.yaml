@@ -1,0 +1,885 @@
+CLEVR:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/CLEVR
+  data_type: parquet
+  num_samples: 50578
+  row_size: 16
+CLEVR-Math:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/CLEVR-Math
+  data_type: parquet
+  num_samples: 5254
+  row_size: 16
+Docmatix-part-00-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/Docmatix-part-00-of-10
+  data_type: parquet
+  num_samples: 53652
+  row_size: 16
+Docmatix-part-01-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/Docmatix-part-01-of-10
+  data_type: parquet
+  num_samples: 53652
+  row_size: 16
+Docmatix-part-02-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/Docmatix-part-02-of-10
+  data_type: parquet
+  num_samples: 53586
+  row_size: 16
+Docmatix-part-03-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/Docmatix-part-03-of-10
+  data_type: parquet
+  num_samples: 55196
+  row_size: 16
+Docmatix-part-04-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/Docmatix-part-04-of-10
+  data_type: parquet
+  num_samples: 55755
+  row_size: 16
+Docmatix-part-05-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/Docmatix-part-05-of-10
+  data_type: parquet
+  num_samples: 53586
+  row_size: 16
+Docmatix-part-06-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/Docmatix-part-06-of-10
+  data_type: parquet
+  num_samples: 55427
+  row_size: 16
+Docmatix-part-07-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/Docmatix-part-07-of-10
+  data_type: parquet
+  num_samples: 55755
+  row_size: 16
+Docmatix-part-08-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/Docmatix-part-08-of-10
+  data_type: parquet
+  num_samples: 53586
+  row_size: 16
+Docmatix-part-09-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/Docmatix-part-09-of-10
+  data_type: parquet
+  num_samples: 54955
+  row_size: 16
+Evol-Instruct-GPT4-Turbo:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/Evol-Instruct-GPT4-Turbo
+  data_type: parquet
+  num_samples: 142990
+  row_size: 16
+FigureQA:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/FigureQA
+  data_type: parquet
+  num_samples: 97696
+  row_size: 16
+GEOS:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/GEOS
+  data_type: parquet
+  num_samples: 539
+  row_size: 16
+GeoQA+:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/GeoQA+
+  data_type: parquet
+  num_samples: 26810
+  row_size: 16
+Geometry3K:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/Geometry3K
+  data_type: parquet
+  num_samples: 23706
+  row_size: 16
+IconQA:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/IconQA
+  data_type: parquet
+  num_samples: 32284
+  row_size: 16
+OmniDocBench_train:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/OmniDocBench_train
+  data_type: parquet
+  num_samples: 967
+  row_size: 16
+PMC-VQA:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/PMC-VQA
+  data_type: parquet
+  num_samples: 35843
+  row_size: 16
+Super-CLEVR:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/Super-CLEVR
+  data_type: parquet
+  num_samples: 8607
+  row_size: 16
+VisualWebInstruct:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/VisualWebInstruct
+  data_type: parquet
+  num_samples: 262484
+  row_size: 16
+VizWiz:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/VizWiz
+  data_type: parquet
+  num_samples: 20398
+  row_size: 16
+ai2d:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/ai2d
+  data_type: parquet
+  num_samples: 25283
+  row_size: 16
+alfredplpl:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/alfredplpl
+  data_type: parquet
+  num_samples: 46140
+  row_size: 16
+alfworld:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/alfworld
+  data_type: parquet
+  num_samples: 52149
+  row_size: 16
+allava:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/allava
+  data_type: parquet
+  num_samples: 195333
+  row_size: 16
+allava_instruct_laion4v:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/allava_instruct_laion4v
+  data_type: parquet
+  num_samples: 49817
+  row_size: 16
+allava_instruct_vflan4v:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/allava_instruct_vflan4v
+  data_type: parquet
+  num_samples: 19884
+  row_size: 16
+allenai_pixmo_docs:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/allenai_pixmo_docs
+  data_type: parquet
+  num_samples: 111384
+  row_size: 16
+amc_aime:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/amc_aime
+  data_type: parquet
+  num_samples: 1253
+  row_size: 16
+aokvqa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/aokvqa
+  data_type: parquet
+  num_samples: 22848
+  row_size: 16
+aops_forum:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/aops_forum
+  data_type: parquet
+  num_samples: 9228
+  row_size: 16
+arxiv_figs:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/arxiv_figs
+  data_type: parquet
+  num_samples: 150907
+  row_size: 16
+arxivqa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/arxivqa
+  data_type: parquet
+  num_samples: 8610
+  row_size: 16
+cambrian:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/cambrian
+  data_type: parquet
+  num_samples: 20895
+  row_size: 16
+chart2text:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/chart2text
+  data_type: parquet
+  num_samples: 65445
+  row_size: 16
+chartqa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/chartqa
+  data_type: parquet
+  num_samples: 18202
+  row_size: 16
+chrome_writting:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/chrome_writting
+  data_type: parquet
+  num_samples: 8012
+  row_size: 16
+cn_k12:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/cn_k12
+  data_type: parquet
+  num_samples: 83547
+  row_size: 16
+coco:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/coco
+  data_type: parquet
+  num_samples: 96034
+  row_size: 16
+datikz:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/datikz
+  data_type: parquet
+  num_samples: 60687
+  row_size: 16
+docvqa_train:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/docvqa_train
+  data_type: parquet
+  num_samples: 15076
+  row_size: 16
+dvqa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/dvqa
+  data_type: parquet
+  num_samples: 138124
+  row_size: 16
+dvqa-part-00-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/dvqa-part-00-of-10
+  data_type: parquet
+  num_samples: 36834
+  row_size: 16
+finqa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/finqa
+  data_type: parquet
+  num_samples: 1982
+  row_size: 16
+geo170k_align:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/geo170k_align
+  data_type: parquet
+  num_samples: 59550
+  row_size: 16
+geo170k_qa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/geo170k_qa
+  data_type: parquet
+  num_samples: 133522
+  row_size: 16
+geo3k:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/geo3k
+  data_type: parquet
+  num_samples: 2089
+  row_size: 16
+geomverse:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/geomverse
+  data_type: parquet
+  num_samples: 15559
+  row_size: 16
+gpt4o:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/gpt4o
+  data_type: parquet
+  num_samples: 71069
+  row_size: 16
+gpt4v:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/gpt4v
+  data_type: parquet
+  num_samples: 15
+  row_size: 16
+gqa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/gqa
+  data_type: parquet
+  num_samples: 71239
+  row_size: 16
+gsm8k:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/gsm8k
+  data_type: parquet
+  num_samples: 2287
+  row_size: 16
+hateful_memes:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/hateful_memes
+  data_type: parquet
+  num_samples: 15547
+  row_size: 16
+hitab:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/hitab
+  data_type: parquet
+  num_samples: 4893
+  row_size: 16
+hme100k:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/hme100k
+  data_type: parquet
+  num_samples: 69092
+  row_size: 16
+iam:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/iam
+  data_type: parquet
+  num_samples: 5782
+  row_size: 16
+idk:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/idk
+  data_type: parquet
+  num_samples: 16361
+  row_size: 16
+ifeval_like:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/ifeval_like
+  data_type: parquet
+  num_samples: 549844
+  row_size: 16
+iiit:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/iiit
+  data_type: parquet
+  num_samples: 1903
+  row_size: 16
+image_textualization:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/image_textualization
+  data_type: parquet
+  num_samples: 99214
+  row_size: 16
+infographic_azuregpt4v:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/infographic_azuregpt4v
+  data_type: parquet
+  num_samples: 1987
+  row_size: 16
+infographic_vqa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/infographic_vqa
+  data_type: parquet
+  num_samples: 12599
+  row_size: 16
+intergps:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/intergps
+  data_type: parquet
+  num_samples: 2339
+  row_size: 16
+invoices-and-receipts_ocr:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/invoices-and-receipts_ocr
+  data_type: parquet
+  num_samples: 5084
+  row_size: 16
+laion_220k:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/laion_220k
+  data_type: parquet
+  num_samples: 109905
+  row_size: 16
+latex_ocr:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/latex_ocr
+  data_type: parquet
+  num_samples: 75984
+  row_size: 16
+llava_cot_100k:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/llava_cot_100k
+  data_type: parquet
+  num_samples: 98229
+  row_size: 16
+llava_instruct:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/llava_instruct
+  data_type: parquet
+  num_samples: 70609
+  row_size: 16
+llava_wild:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/llava_wild
+  data_type: parquet
+  num_samples: 54240
+  row_size: 16
+llavar:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/llavar
+  data_type: parquet
+  num_samples: 19796
+  row_size: 16
+llrv_gpt4v:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/llrv_gpt4v
+  data_type: parquet
+  num_samples: 13820
+  row_size: 16
+lrv_chart:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/lrv_chart
+  data_type: parquet
+  num_samples: 1348
+  row_size: 16
+magpie_pro:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/magpie_pro
+  data_type: parquet
+  num_samples: 1035157
+  row_size: 16
+magpie_ultra:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/magpie_ultra
+  data_type: parquet
+  num_samples: 621690
+  row_size: 16
+mapqa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/mapqa
+  data_type: parquet
+  num_samples: 52581
+  row_size: 16
+math:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/math
+  data_type: parquet
+  num_samples: 2244
+  row_size: 16
+mathinstruct_262k:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/mathinstruct_262k
+  data_type: parquet
+  num_samples: 79064
+  row_size: 16
+mathqa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/mathqa
+  data_type: parquet
+  num_samples: 29837
+  row_size: 16
+mavis_math_metagen:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/mavis_math_metagen
+  data_type: parquet
+  num_samples: 25250
+  row_size: 16
+ocr:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/ocr
+  data_type: parquet
+  num_samples: 180810
+  row_size: 16
+ocrvqa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/ocrvqa
+  data_type: parquet
+  num_samples: 660349
+  row_size: 16
+olympiads:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/olympiads
+  data_type: parquet
+  num_samples: 45559
+  row_size: 16
+oodvqa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/oodvqa
+  data_type: parquet
+  num_samples: 184
+  row_size: 16
+open_orca:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/open_orca
+  data_type: parquet
+  num_samples: 994896
+  row_size: 16
+openmathinstruct:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/openmathinstruct
+  data_type: parquet
+  num_samples: 2000000
+  row_size: 16
+orca_994k:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/orca_994k
+  data_type: parquet
+  num_samples: 300672
+  row_size: 16
+orca_agentinstruct:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/orca_agentinstruct
+  data_type: parquet
+  num_samples: 1045962
+  row_size: 16
+oroikon_chart_captioning:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/oroikon_chart_captioning
+  data_type: parquet
+  num_samples: 7033
+  row_size: 16
+pathvqa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/pathvqa
+  data_type: parquet
+  num_samples: 39044
+  row_size: 16
+plotqa-part-00-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/plotqa-part-00-of-10
+  data_type: parquet
+  num_samples: 16195
+  row_size: 16
+plotqa-part-01-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/plotqa-part-01-of-10
+  data_type: parquet
+  num_samples: 16195
+  row_size: 16
+plotqa-part-02-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/plotqa-part-02-of-10
+  data_type: parquet
+  num_samples: 16195
+  row_size: 16
+plotqa-part-03-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/plotqa-part-03-of-10
+  data_type: parquet
+  num_samples: 16195
+  row_size: 16
+plotqa-part-04-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/plotqa-part-04-of-10
+  data_type: parquet
+  num_samples: 16195
+  row_size: 16
+plotqa-part-05-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/plotqa-part-05-of-10
+  data_type: parquet
+  num_samples: 16195
+  row_size: 16
+plotqa-part-06-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/plotqa-part-06-of-10
+  data_type: parquet
+  num_samples: 16195
+  row_size: 16
+plotqa-part-07-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/plotqa-part-07-of-10
+  data_type: parquet
+  num_samples: 16195
+  row_size: 16
+plotqa-part-08-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/plotqa-part-08-of-10
+  data_type: parquet
+  num_samples: 16195
+  row_size: 16
+plotqa-part-09-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/plotqa-part-09-of-10
+  data_type: parquet
+  num_samples: 16185
+  row_size: 16
+raven:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/raven
+  data_type: parquet
+  num_samples: 26272
+  row_size: 16
+rects:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/rects
+  data_type: parquet
+  num_samples: 17008
+  row_size: 16
+rendered_text:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/rendered_text
+  data_type: parquet
+  num_samples: 18921
+  row_size: 16
+robut_sqa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/robut_sqa
+  data_type: parquet
+  num_samples: 12236
+  row_size: 16
+robut_wikisql:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/robut_wikisql
+  data_type: parquet
+  num_samples: 153386
+  row_size: 16
+robut_wtq:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/robut_wtq
+  data_type: parquet
+  num_samples: 39997
+  row_size: 16
+rootsautomation:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/rootsautomation
+  data_type: parquet
+  num_samples: 49370
+  row_size: 16
+scienceqa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/scienceqa
+  data_type: parquet
+  num_samples: 1563
+  row_size: 16
+screen2words:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/screen2words
+  data_type: parquet
+  num_samples: 15671
+  row_size: 16
+screen_qa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/screen_qa
+  data_type: parquet
+  num_samples: 38809
+  row_size: 16
+sharegpt4o:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/sharegpt4o
+  data_type: parquet
+  num_samples: 112760
+  row_size: 16
+sharegpt4v-part-00-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/sharegpt4v-part-00-of-10
+  data_type: parquet
+  num_samples: 8116
+  row_size: 16
+sharegpt4v-part-01-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/sharegpt4v-part-01-of-10
+  data_type: parquet
+  num_samples: 14203
+  row_size: 16
+sharegpt4v-part-03-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/sharegpt4v-part-03-of-10
+  data_type: parquet
+  num_samples: 28408
+  row_size: 16
+sharegpt4v-part-04-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/sharegpt4v-part-04-of-10
+  data_type: parquet
+  num_samples: 28408
+  row_size: 16
+sharegpt4v-part-05-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/sharegpt4v-part-05-of-10
+  data_type: parquet
+  num_samples: 28408
+  row_size: 16
+sharegpt4v-part-06-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/sharegpt4v-part-06-of-10
+  data_type: parquet
+  num_samples: 28408
+  row_size: 16
+sharegpt4v-part-07-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/sharegpt4v-part-07-of-10
+  data_type: parquet
+  num_samples: 28408
+  row_size: 16
+sharegpt4v-part-08-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/sharegpt4v-part-08-of-10
+  data_type: parquet
+  num_samples: 28408
+  row_size: 16
+sharegpt4v-part-09-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/sharegpt4v-part-09-of-10
+  data_type: parquet
+  num_samples: 28403
+  row_size: 16
+sherlock:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/sherlock
+  data_type: parquet
+  num_samples: 24458
+  row_size: 16
+sroie_data:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/sroie_data
+  data_type: parquet
+  num_samples: 31896
+  row_size: 16
+st_vqa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/st_vqa
+  data_type: parquet
+  num_samples: 32307
+  row_size: 16
+svit-part-00-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/svit-part-00-of-10
+  data_type: parquet
+  num_samples: 98516
+  row_size: 16
+svit-part-01-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/svit-part-01-of-10
+  data_type: parquet
+  num_samples: 98516
+  row_size: 16
+svit-part-02-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/svit-part-02-of-10
+  data_type: parquet
+  num_samples: 98516
+  row_size: 16
+svit-part-03-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/svit-part-03-of-10
+  data_type: parquet
+  num_samples: 98516
+  row_size: 16
+svit-part-04-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/svit-part-04-of-10
+  data_type: parquet
+  num_samples: 98516
+  row_size: 16
+svit-part-05-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/svit-part-05-of-10
+  data_type: parquet
+  num_samples: 98516
+  row_size: 16
+svit-part-06-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/svit-part-06-of-10
+  data_type: parquet
+  num_samples: 98516
+  row_size: 16
+svit-part-07-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/svit-part-07-of-10
+  data_type: parquet
+  num_samples: 98516
+  row_size: 16
+svit-part-08-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/svit-part-08-of-10
+  data_type: parquet
+  num_samples: 98516
+  row_size: 16
+svit-part-09-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/svit-part-09-of-10
+  data_type: parquet
+  num_samples: 98506
+  row_size: 16
+synthetic_amc:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/synthetic_amc
+  data_type: parquet
+  num_samples: 18880
+  row_size: 16
+synthetic_math:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/synthetic_math
+  data_type: parquet
+  num_samples: 50627
+  row_size: 16
+tabmwp:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/tabmwp
+  data_type: parquet
+  num_samples: 56071
+  row_size: 16
+tallyqa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/tallyqa
+  data_type: parquet
+  num_samples: 107956
+  row_size: 16
+tat_qa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/tat_qa
+  data_type: parquet
+  num_samples: 1775
+  row_size: 16
+textcaps:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/textcaps
+  data_type: parquet
+  num_samples: 21877
+  row_size: 16
+textocr_gpt4v:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/textocr_gpt4v
+  data_type: parquet
+  num_samples: 25105
+  row_size: 16
+textvqa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/textvqa
+  data_type: parquet
+  num_samples: 8448
+  row_size: 16
+tinychart_train:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/tinychart_train
+  data_type: parquet
+  num_samples: 1097422
+  row_size: 16
+tqa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/tqa
+  data_type: parquet
+  num_samples: 107227
+  row_size: 16
+unigeo:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/unigeo
+  data_type: parquet
+  num_samples: 18819
+  row_size: 16
+ureader_cap:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/ureader_cap
+  data_type: parquet
+  num_samples: 91093
+  row_size: 16
+ureader_chart:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/ureader_chart
+  data_type: parquet
+  num_samples: 69947
+  row_size: 16
+ureader_ie:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/ureader_ie
+  data_type: parquet
+  num_samples: 17319
+  row_size: 16
+ureader_kg:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/ureader_kg
+  data_type: parquet
+  num_samples: 37441
+  row_size: 16
+ureader_ocr:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/ureader_ocr
+  data_type: parquet
+  num_samples: 2678
+  row_size: 16
+ureader_qa:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/ureader_qa
+  data_type: parquet
+  num_samples: 252214
+  row_size: 16
+ureader_tr:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/ureader_tr
+  data_type: parquet
+  num_samples: 101635
+  row_size: 16
+vflan:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/vflan
+  data_type: parquet
+  num_samples: 446478
+  row_size: 16
+vg:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/vg
+  data_type: parquet
+  num_samples: 138045
+  row_size: 16
+viquae:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/viquae
+  data_type: parquet
+  num_samples: 4125
+  row_size: 16
+vision_flan:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/vision_flan
+  data_type: parquet
+  num_samples: 350501
+  row_size: 16
+vision_oritented:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/vision_oritented
+  data_type: parquet
+  num_samples: 14262
+  row_size: 16
+vistext:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/vistext
+  data_type: parquet
+  num_samples: 30894
+  row_size: 16
+visual7w:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/visual7w
+  data_type: parquet
+  num_samples: 93374
+  row_size: 16
+visual_chat:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/visual_chat
+  data_type: parquet
+  num_samples: 25903
+  row_size: 16
+visualmrc:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/visualmrc
+  data_type: parquet
+  num_samples: 4937
+  row_size: 16
+vqaas:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/vqaas
+  data_type: parquet
+  num_samples: 5871
+  row_size: 16
+vqarad:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/vqarad
+  data_type: parquet
+  num_samples: 2689
+  row_size: 16
+vsr:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/vsr
+  data_type: parquet
+  num_samples: 2149
+  row_size: 16
+websight:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/websight
+  data_type: parquet
+  num_samples: 17280
+  row_size: 16
+wikipedia_2m:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/wikipedia_2m
+  data_type: parquet
+  num_samples: 2011747
+  row_size: 16
+wit-part-00-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/wit-part-00-of-10
+  data_type: parquet
+  num_samples: 64748
+  row_size: 16
+wit-part-01-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/wit-part-01-of-10
+  data_type: parquet
+  num_samples: 64748
+  row_size: 16
+wit-part-02-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/wit-part-02-of-10
+  data_type: parquet
+  num_samples: 64748
+  row_size: 16
+wit-part-03-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/wit-part-03-of-10
+  data_type: parquet
+  num_samples: 64748
+  row_size: 16
+wit-part-04-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/wit-part-04-of-10
+  data_type: parquet
+  num_samples: 64748
+  row_size: 16
+wit-part-05-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/wit-part-05-of-10
+  data_type: parquet
+  num_samples: 64748
+  row_size: 16
+wit-part-06-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/wit-part-06-of-10
+  data_type: parquet
+  num_samples: 64748
+  row_size: 16
+wit-part-07-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/wit-part-07-of-10
+  data_type: parquet
+  num_samples: 64748
+  row_size: 16
+wit-part-08-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/wit-part-08-of-10
+  data_type: parquet
+  num_samples: 64748
+  row_size: 16
+wit-part-09-of-10:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/wit-part-09-of-10
+  data_type: parquet
+  num_samples: 64742
+  row_size: 16
+wizardlm:
+- data_file: datasets/LLaVA-OneVision-1.5-Instruct-Data/wizardlm
+  data_type: parquet
+  num_samples: 43068
+  row_size: 16

@@ -28,6 +28,29 @@
 
 </div>
 
+## 🎬 Demos
+
+Parallel region captioning in action — given multiple masks, PerceptionDLM describes **all regions simultaneously** in a single denoising pass:
+
+<div align="center">
+<table>
+<tr>
+<td width="50%">
+
+https://github.com/user-attachments/assets/cd078bbc-d24b-4c55-b8ee-4ac86685d831
+
+</td>
+<td width="50%">
+
+https://github.com/user-attachments/assets/269b186c-468b-49f4-b25a-88f1be3d8bdf
+
+</td>
+</tr>
+</table>
+</div>
+
+> If the videos do not play inline, click to view: [demo&nbsp;0](assets/demo_0.mp4) · [demo&nbsp;1](assets/demo_1.mp4).
+
 ---
 
 **PerceptionDLM** is a multimodal **diffusion** language model optimized for **efficient parallel region perception**. Built upon a strong foundational baseline (**PerceptionDLM-Base**), it fully leverages the parallel decoding nature of diffusion language models (DLMs): given an image and multiple region masks, it generates descriptions for **all regions simultaneously** within a single denoising process — avoiding the linear latency growth of autoregressive (AR) region captioners.
@@ -169,30 +192,10 @@ We provide a comprehensive evaluation suite covering both **Multimodal Benchmark
 PerceptionDLM-Base establishes a strong open **diffusion** VLM baseline, outperforming LLaDA-V on **15 / 16** benchmarks and staying competitive with leading AR VLMs at the same scale.
 
 <div align="center">
-
-| Benchmark | PerceptionDLM-Base | LLaDA-V | SDAR-VL | Dream-VL | Qwen2.5-VL | InternVL3 |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| | *8B* | *8B* | *8B* | *7B* | *7B* | *8B* |
-| MMStar | 63.7 | 60.1 | 59.9 | 59.9 | 63.9 | **68.2** |
-| SeedBench | **78.9** | 74.8 | 75.5 | 76.4 | 77.0 | 77.1 |
-| MMBench | **85.0** | 82.9 | 82.2 | 83.0 | 83.5 | 83.4 |
-| MMMU | 47.2 | 48.6 | 53.0 | 52.2 | 51.3 | **57.3** |
-| MathVista | 65.5 | 52.4 | 62.5 | 63.1 | 68.2 | **71.6** |
-| MathVerse | 25.3 | 20.6 | 36.5 | – | **42.7** | 23.1 |
-| AI2D | 85.0 | 77.8 | 79.9 | 81.2 | 83.9 | **85.2** |
-| ChartQA | **91.6** | 78.3 | 82.7 | 86.8 | 86.2 | 86.6 |
-| DocVQA | 89.9 | 83.9 | 88.3 | 94.4 | **94.9** | 92.7 |
-| InfoVQA | 74.6 | 66.3 | 73.2 | 81.4 | **82.6** | 76.8 |
-| MMVP | **82.0** | 76.7 | 66.5 | – | 73.3 | 80.0 |
-| BLINK | **60.3** | 50.9 | – | 52.9 | 55.3 | 55.5 |
-| RealWorldQA | **73.7** | 63.2 | 66.5 | 66.3 | 68.4 | 70.8 |
-| CV-Bench-2D | **79.8** | 77.7 | – | – | 75.6 | 79.0 |
-| HallusionBench | **58.4** | 50.9 | 44.4 | – | 51.9 | 49.9 |
-| V* | 73.3 | 62.8 | – | – | **76.4** | 67.5 |
-
+  <img src="assets/benchmark.png" width="95%" alt="PerceptionDLM-Base multimodal benchmark comparison"/>
 </div>
 
-> **Bold** = best score in each row. "–" = not reported. See the paper for the full protocol.
+> **Bold** = best score in each row. "–" = not reported; $^\dagger$ / $^\star$ = re-evaluated by us (official scripts / VLMEvalKit). See the paper for the full protocol.
 
 ### PerceptionDLM — Parallel Region Perception
 

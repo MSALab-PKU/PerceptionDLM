@@ -8,8 +8,9 @@
 ### Parallel Region Perception with Multimodal Diffusion Language Models
 
 [![Paper](https://img.shields.io/badge/arXiv-2606.19534-b31b1b.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.19534)
-[![Hugging Face Models](https://img.shields.io/badge/🤗%20Hugging%20Face-Models-ffcc00.svg)](https://huggingface.co/MSALab)
-[![Hugging Face Dataset](https://img.shields.io/badge/🤗%20Hugging%20Face-ParaDLC--Bench-ff9d00.svg)](https://huggingface.co/datasets/MSALab/ParaDLC-Bench)
+[![Hugging Face Models](https://img.shields.io/badge/🤗%20Hugging%20Face-Models-ffcc00.svg)](https://huggingface.co/collections/MSALab/perceptiondlm-model-zoo)
+[![Hugging Face Dataset](https://img.shields.io/badge/🤗%20Hugging%20Face-PerceptionDLM--Data-ff7300.svg)](https://huggingface.co/datasets/MSALab/PerceptionDLM-Data)
+[![Hugging Face Benchmark](https://img.shields.io/badge/🤗%20Hugging%20Face-ParaDLC--Bench-ff9d00.svg)](https://huggingface.co/datasets/MSALab/ParaDLC-Bench)
 [![Code](https://img.shields.io/badge/GitHub-Code-181717.svg?logo=github&logoColor=white)](https://github.com/MSALab-PKU/PerceptionDLM)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
@@ -96,6 +97,7 @@ After syncing, activate the virtual environment (e.g., `source .venv/bin/activat
 | Model | **PerceptionDLM-Base** (8B) | [🤗 MSALab/PerceptionDLM-Base](https://huggingface.co/MSALab/PerceptionDLM-Base) |
 | Model | **PerceptionDLM** (8B) | [🤗 MSALab/PerceptionDLM](https://huggingface.co/MSALab/PerceptionDLM) |
 | Backbone | LLaDA-8B-Instruct (HF format) | [🤗 MSALab/LLaDA-8B-Instruct-HF](https://huggingface.co/MSALab/LLaDA-8B-Instruct-HF) |
+| Data | **PerceptionDLM-Data** (training data) | [🤗 MSALab/PerceptionDLM-Data](https://huggingface.co/datasets/MSALab/PerceptionDLM-Data) |
 | Benchmark | **ParaDLC-Bench** | [🤗 MSALab/ParaDLC-Bench](https://huggingface.co/datasets/MSALab/ParaDLC-Bench) · [`evaluation/ParaDLC-Bench`](evaluation/ParaDLC-Bench) |
 
 ## 🚀 Quick Start
@@ -134,6 +136,7 @@ Download the datasets from Hugging Face and organize them as shown below:
 
 - [Bee Collections](https://huggingface.co/collections/Open-Bee/bee) — `Bee-Training-Data-Stage1`, `Bee-Training-Data-Stage2`, `Honey-Data-15M`
 - [LLaVA-OneVision-1.5-Instruct-Data](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Instruct-Data)
+- [🤗 MSALab/PerceptionDLM-Data](https://huggingface.co/datasets/MSALab/PerceptionDLM-Data) — region mask/caption annotations for PerceptionDLM
 
 ```text
 ./
@@ -143,6 +146,9 @@ Download the datasets from Hugging Face and organize them as shown below:
 │   ├── LLaVA-OneVision-1.5-Instruct-Data/
 │   └── Honey-Data-15M/
 ├── annotations/                           # region mask/caption annotations (PerceptionDLM)
+│   ├── dam_dataset.json
+│   ├── coconut_dataset.json
+│   └── sam_dataset.json
 └── images/                                # corresponding image files
 ```
 

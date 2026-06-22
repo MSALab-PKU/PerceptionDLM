@@ -8,6 +8,7 @@
 ### Parallel Region Perception with Multimodal Diffusion Language Models
 
 [![Paper](https://img.shields.io/badge/arXiv-2606.19534-b31b1b.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.19534)
+[![Project Page](https://img.shields.io/badge/🌐%20Project-Page-1f6feb.svg)](https://msalab-pku.github.io/projects/PerceptionDLM/)
 [![Hugging Face Models](https://img.shields.io/badge/🤗%20Hugging%20Face-Models-ffcc00.svg)](https://huggingface.co/collections/MSALab/perceptiondlm-model-zoo)
 [![Hugging Face Dataset](https://img.shields.io/badge/🤗%20Hugging%20Face-PerceptionDLM--Data-ff7300.svg)](https://huggingface.co/datasets/MSALab/PerceptionDLM-Data)
 [![Hugging Face Benchmark](https://img.shields.io/badge/🤗%20Hugging%20Face-ParaDLC--Bench-ff9d00.svg)](https://huggingface.co/datasets/MSALab/ParaDLC-Bench)
